@@ -1,0 +1,4 @@
+WolfIdentifier
+==============
+
+Bukkit plugin WorldIdentifier
