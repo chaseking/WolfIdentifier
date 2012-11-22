@@ -1,0 +1,8 @@
+name: WolfIdentifier
+version: 11.18.12
+main: com.github.cliff777.wolfidentifier.WolfMain
+author: cliff777
+permissions:
+  wolfidentifier.use:
+    description: Grants the use of the wolf identifier wand
+    default: op
