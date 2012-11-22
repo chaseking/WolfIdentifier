@@ -11,11 +11,6 @@ public class WolfListener implements Listener {
 	
 	@EventHandler
 	public void onEntityInteract(PlayerInteractEntityEvent event) {
-		//System.out.println("HELLO");
-		//System.out.println(event.getRightClicked() instanceof Wolf);
-		//System.out.println(event.getPlayer().getItemInHand() == WolfMain.itemNeeded());
-		//System.out.println(event.getPlayer().getItemInHand().getAmount() + "   " + event.getPlayer().getItemInHand().getType());
-		
 		if(event.getRightClicked() instanceof Wolf && 
 			event.getPlayer().getItemInHand().getAmount() == 1 && 
 			event.getPlayer().getItemInHand().getTypeId() == WolfMain.id &&
